@@ -1,0 +1,49 @@
+{
+  "name": "@docbliny/dbus-next",
+  "version": "1.10.2",
+  "keywords": [
+    "dbus",
+    "dcop",
+    "d-bus",
+    "rpc",
+    "gnome",
+    "kde"
+  ],
+  "description": "The next great DBus library for Node",
+  "files": [
+    "src/*",
+    "index.js",
+    "package.json",
+    "index.d.ts"
+  ],
+  "directories": {
+    "src": "src"
+  },
+  "main": "index.js",
+  "type": "commonjs",
+  "types": "index.d.ts",
+  "maintainers": [
+    {
+      "name": "Tony Crisci",
+      "email": "tony@dubstepdish.com"
+    }
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/dbusjs/node-dbus-next.git"
+  },
+  "dependencies": {
+    "@nornagon/put": "0.0.8",
+    "event-stream": "4.0.1",
+    "jsbi": "4.3.0",
+    "long": "5.2.1",
+    "safe-buffer": "5.2.1",
+    "usocket": "1.0.1",
+    "xml2js": "0.4.23"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build": "echo Nothing to build."
+  }
+}

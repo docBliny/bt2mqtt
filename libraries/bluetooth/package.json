@@ -1,0 +1,44 @@
+{
+  "name": "@docbliny/bluetooth",
+  "version": "1.0.0",
+  "description": "Bluetooth utility library.",
+  "author": "@docBliny",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/docBliny/bt2mqtt.git",
+    "directory": "libraries/bluetooth"
+  },
+  "homepage": "https://github.com/docBliny/bt2mqtt#README",
+  "exports": {
+    ".": {
+      "require": "./lib/index.cjs",
+      "import": "./lib/index.js"
+    }
+  },
+  "type": "module",
+  "types": "./lib/index.d.ts",
+  "scripts": {
+    "build": "heft build --clean",
+    "build:watch": "heft build --watch",
+    "start": "rushx build && node lib/index.mjs",
+    "test": "heft test",
+    "test:watch": "heft test"
+  },
+  "devDependencies": {
+    "@rushstack/eslint-config": "3.2.0",
+    "@rushstack/heft": "~0.49.7",
+    "@rushstack/heft-node-rig": "1.12.4",
+    "@types/node": "18.11.9",
+    "@types/heft-jest": "1.0.3",
+    "eslint": "8.28.0",
+    "typescript": "~4.9.3"
+  },
+  "dependencies": {
+    "@docbliny/dbus-next": "workspace:*",
+    "@docbliny/node-ble": "workspace:*",
+    "@rushstack/node-core-library": "3.54.0",
+    "promise-timeout": "1.3.0",
+    "@types/promise-timeout": "1.3.0"
+  }
+}

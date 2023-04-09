@@ -1,0 +1,41 @@
+{
+  "name": "@docbliny/msblinds",
+  "version": "1.0.0",
+  "description": "Bluetooth library to control a certain brand of smart blinds.",
+  "author": "@docBliny",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/docBliny/bt2mqtt.git",
+    "directory": "libraries/msblinds"
+  },
+  "homepage": "https://github.com/docBliny/bt2mqtt#README",
+  "type": "module",
+  "types": "./lib/index.d.ts",
+  "exports": {
+    ".": {
+      "require": "./lib/index.cjs",
+      "import": "./lib/index.js"
+    }
+  },
+  "scripts": {
+    "build": "heft build --clean",
+    "build:watch": "heft build --watch",
+    "test": "heft test",
+    "test:watch": "heft test"
+  },
+  "devDependencies": {
+    "@rushstack/eslint-config": "3.2.0",
+    "@rushstack/heft": "~0.49.7",
+    "@rushstack/heft-node-rig": "1.12.4",
+    "@types/node": "18.11.9",
+    "@types/heft-jest": "1.0.3",
+    "eslint": "8.28.0",
+    "typescript": "~4.9.3"
+  },
+  "dependencies": {
+    "@docbliny/bluetooth": "workspace:*",
+    "@docbliny/node-ble": "workspace:*",
+    "@rushstack/node-core-library": "3.54.0"
+  }
+}

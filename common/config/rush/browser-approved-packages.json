@@ -1,0 +1,106 @@
+// DO NOT ADD COMMENTS IN THIS FILE.  They will be lost when the Rush tool resaves it.
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/rush/v5/approved-packages.schema.json",
+  "packages": [
+    {
+      "name": "@abandonware/noble",
+      "allowedCategories": [ "production" ]
+    },
+    {
+      "name": "@docbliny/bluetooth",
+      "allowedCategories": [ "production" ]
+    },
+    {
+      "name": "@docbliny/dbus-next",
+      "allowedCategories": [ "production" ]
+    },
+    {
+      "name": "@docbliny/msblinds",
+      "allowedCategories": [ "production" ]
+    },
+    {
+      "name": "@docbliny/node-ble",
+      "allowedCategories": [ "production" ]
+    },
+    {
+      "name": "@nornagon/put",
+      "allowedCategories": [ "production" ]
+    },
+    {
+      "name": "@rushstack/eslint-config",
+      "allowedCategories": [ "production" ]
+    },
+    {
+      "name": "@rushstack/heft",
+      "allowedCategories": [ "production" ]
+    },
+    {
+      "name": "@rushstack/heft-node-rig",
+      "allowedCategories": [ "production" ]
+    },
+    {
+      "name": "@rushstack/node-core-library",
+      "allowedCategories": [ "production" ]
+    },
+    {
+      "name": "@rushstack/ts-command-line",
+      "allowedCategories": [ "production" ]
+    },
+    {
+      "name": "dbus-next",
+      "allowedCategories": [ "production" ]
+    },
+    {
+      "name": "eslint",
+      "allowedCategories": [ "production" ]
+    },
+    {
+      "name": "event-stream",
+      "allowedCategories": [ "production" ]
+    },
+    {
+      "name": "jsbi",
+      "allowedCategories": [ "production" ]
+    },
+    {
+      "name": "long",
+      "allowedCategories": [ "production" ]
+    },
+    {
+      "name": "noble",
+      "allowedCategories": [ "production" ]
+    },
+    {
+      "name": "node-ble",
+      "allowedCategories": [ "production" ]
+    },
+    {
+      "name": "promise-timeout",
+      "allowedCategories": [ "production" ]
+    },
+    {
+      "name": "safe-buffer",
+      "allowedCategories": [ "production" ]
+    },
+    {
+      "name": "typescript",
+      "allowedCategories": [ "production" ]
+    },
+    {
+      "name": "u8-mqtt",
+      "allowedCategories": [ "production" ]
+    },
+    {
+      "name": "usocket",
+      "allowedCategories": [ "production" ]
+    },
+    {
+      "name": "xml2js",
+      "allowedCategories": [ "production" ]
+    },
+    {
+      "name": "yaml",
+      "allowedCategories": [ "production" ]
+    }
+  ]
+}
